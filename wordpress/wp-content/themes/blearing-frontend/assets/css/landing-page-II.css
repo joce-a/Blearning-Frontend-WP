@@ -1,0 +1,102 @@
+/*HEADER*/
+.card-body {
+	/*clear: both;*/
+	background-image: url(../images/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.card-title {
+	margin-bottom: 20px;
+}
+.card-text {
+	margin-top: 20px;
+}
+/*NAV*/
+.nav.nav-tabs.card-header-tabs {
+	float: right;
+}
+.link-logo {
+	float: left;
+	margin: 5px 0 0 5px;
+}
+.logo-header {
+	height: 50px;
+}
+.container-text {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.card-header a {
+	color: white;
+}
+.nav-tabs {
+	border-bottom: none;
+}
+/*CONTAINER 1*/
+.C1 {
+	text-align: center;
+}
+.fotogente {
+	max-width: 500px;
+}
+/*CONTAINER 2*/
+.jumbotron {
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+.jumbotron p {
+	font-size: 1.2em;
+}
+.container .jumbotron {
+	border-radius: 0;
+}
+/*CONTAINER 3*/
+.C3 {
+	padding: 0 200px;
+	margin-bottom: 30px;
+}
+.bajada1 {
+	display: inline-block;
+}
+.bajada1 p {
+	margin: 0;
+}
+.bajada2 {
+	float: right;
+	/*display: inline-block;*/
+}
+/*FOOTER*/
+.foot {
+	background-color: black;
+	height: 40px;
+	color: white;
+	text-align: center;
+}
+
+/*MQ*/
+@media (max-width: 450px) {
+		.nav.nav-tabs.card-header-tabs {
+		float: left;
+		}
+		.logo-header {
+		height: 60px;
+		}
+		.container-text {
+		max-width: 600px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 20px 0;
+		}
+		.C3 {
+			display: inline;
+		}
+		.bajada2 {
+			float: none;
+		}
+	}
